@@ -13,7 +13,7 @@ public class Task3 {
 
         for(int i = 0;i<n;i++){
 
-            System.out.println("Введите осадки за "+n+" день: ");
+            System.out.println("Введите осадки за "+(i+1)+" день: ");
 
             int a = scanner.nextInt();
             sum+=a;
