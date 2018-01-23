@@ -5,7 +5,7 @@ public class Task2 {
     public static void main(String[] args) {
 
         int n = new Scanner(System.in).nextInt();
-
+        n--;
         while (n>=0){
             System.out.println(fibonachi(n));
             n--;
